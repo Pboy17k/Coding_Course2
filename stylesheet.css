@@ -1,0 +1,305 @@
+.landingpage-container{
+position:relative;
+}
+
+.image_linklayer{
+position:absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+img{
+    margin: 30px;
+}
+
+body{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nn_container{
+  position: absolute;
+}
+
+.link_right{
+  float: right;
+  margin-right: 0;
+}
+
+.link_right a{
+  text-decoration: none;
+}
+
+.link_right a:hover{
+  background-color: red;
+}
+
+.link_nav li{
+  list-style-type: none;
+  display: inline;
+  padding: 20px 10px 10px 20px;
+  font-weight: bold;
+  font-size:large;
+}
+
+.section-left{
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  float: left;
+  padding-left: 3px;
+  width: 650px;
+  margin-left: 3px;
+  margin-bottom: 180px;
+  color: white;
+}
+
+.section-left p{
+font-size: 40px;
+}
+
+.section-left p,h1{
+  margin:5px;
+  padding: 0px;
+}
+
+aside{
+  float: right;
+  padding-right: 28px;
+}
+
+#sub{
+  vertical-align: sub;
+  font-size: 11px;
+}
+
+#about-container{
+  position: relative;
+  height:150vh;
+  width: 100vw;
+  background:aliceblue;
+}
+
+.circle-container{
+  position: absolute;
+  display: inline;
+  float: left;
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 800px;
+  height: 800px;
+  border-radius: 400px;
+  background-color: white;
+}
+
+.bottomlink-container{
+  position: absolute;
+  display: block;
+  bottom: 20px;
+  margin-left: 150px;
+}
+
+.bottomlink-container img{
+  border-radius: 20px;
+}
+
+.bottomlink-container h1{
+  position: absolute;
+  left: 190px;
+  bottom: 70px;
+  color: white;
+}
+
+.rightlink-container{
+  position: absolute;
+  display: inline;
+  right: 30px;
+  margin-right: 170px;
+  margin-top: 200px;
+}
+
+.rightlink-container img{
+  border-radius: 20px;
+}
+
+.rightlink-container h1{
+  position: absolute;
+  right: 150px;
+  bottom: 100px;
+  color: white;
+}
+
+.circle-containertext{
+  text-align: left;
+  padding-top: 80px;
+  padding-left: 150px;
+}
+
+#continue-reading,#fleets,#exercises,.ships-list,.helicopterlist-heading,.helicopter-list,.table-list,.tablelist22-41{
+  margin-left:150px;
+  margin-right: 150px;
+  text-align: justify;
+}
+
+#exercises table,th,td{
+  border: 1px solid black;
+}
+
+.next-right{
+  margin-left: 950px;
+  text-align: right;
+}
+
+.back1-21{
+  margin-left: 950px;
+  text-align: right;
+}
+
+.contactpage-container{
+  position:relative;
+  height:150vh;
+  width: 100vw;
+  }
+  
+  .form-imagelayer{
+  position:absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+
+  .form-imagelayer p,#todo-form{
+    margin-left: 50px;
+  }
+
+  #todo-form{
+    margin-left: 250px;
+  }
+
+#todo{
+  width: 700px;
+  height: 50px;
+  border-color: gainsboro;
+}
+
+#todo-form p{
+  margin-left: 0;
+  color: gray;
+}
+
+#name,#email{
+  width: 700px;
+  height: 50px;
+  background-color: aliceblue;
+  border-color: gainsboro;
+}
+
+#message{
+  width: 700px;
+  height: 150px;
+  background-color: aliceblue;
+  border-color: gainsboro;
+}
+
+#submit{
+  width: 100px;
+  height:40px;
+}
+
+.socialmedia-container{
+  position:absolute;
+  bottom: -10px;
+  margin-left: 500px;
+}
+
+.nnlogo-bottom{
+  position:absolute;
+  bottom: 20px;
+}
+
+.footer-NN2{
+position: absolute;
+bottom:0px;
+}
+
+.footer-NN3{
+  position: absolute;
+  top:6000px;
+  width: 1500px;
+  text-align: center;
+  }
+
+  footer {
+  text-align: center;
+  padding: 1px;
+  background-color: #23395d;;
+  color: white;
+}
+
+.socialmedia-container2{
+  bottom: -20px;
+  margin-left: 650px;
+  align-items: center;
+}
+
+#image-layer h1{
+  text-align: center;
+}
+
+#video-layer h1{
+  text-align: center;
+
+}
+
+.subheading-image1,.subheading-image2,.subheading-image3,.subheading-image4,.subheading-image5{
+  color: gray;
+  margin-left:100px;
+  margin-right: 100px;
+  text-align: justify;
+}
+
+.image-list1,.image-list2,.image-list3,.image-list4,.image-list5,.video-list1,.video-list2{
+  margin-left:100px;
+  margin-right: 100px;
+  text-align: justify;
+}
+
+.subheading-video1,.subheading-video2{
+  color: gray;
+  margin-left:100px;
+  margin-right: 100px;
+  margin-top: 0px;
+  text-align: justify;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-color: whitesmoke;
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .example {background: red;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .example {background: green;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .example {background: blue;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .example {background: orange;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .example {background: pink;}
+}
